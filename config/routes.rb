@@ -1,5 +1,5 @@
 Moonbay::Application.routes.draw do
-  mount RedactorRails::Engine => '/redactor_rails'
+  mount Bootsy::Engine => '/bootsy', as: 'bootsy'
   resources :articles
 
   # The priority is based upon order of creation: first created -> highest priority.
