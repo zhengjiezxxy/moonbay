@@ -48,11 +48,6 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 
-# rich text editor
-gem 'redactor-rails'
 
-#uploader file gem
-gem "carrierwave"
-
-#manipulate picture with min memory
-gem "mini_magick"
+#administration
+gem "rails_admin"
