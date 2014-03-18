@@ -14,3 +14,7 @@
  *= require bootsy
  *= require_tree .
  */
+
+body {
+  font-family: 宋体;
+}

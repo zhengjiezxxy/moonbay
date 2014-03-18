@@ -1,5 +1,8 @@
 Moonbay::Application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
   mount Bootsy::Engine => '/bootsy', as: 'bootsy'
+
+ root :to => "articles#index"
   resources :articles
 
   # The priority is based upon order of creation: first created -> highest priority.
