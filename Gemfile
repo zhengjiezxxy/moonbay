@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
+ruby "1.9.3"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -48,6 +49,20 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 
+<<<<<<< HEAD
 
 #administration
 gem "rails_admin"
+=======
+#rich text editor
+gem 'bootsy'
+
+#injected plugin heroku
+gem 'rails_12factor'
+
+#adminnistrator gem
+gem 'rails_admin'
+
+#authentication
+gem 'devise'
+>>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
