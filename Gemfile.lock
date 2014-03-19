@@ -26,18 +26,18 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    atomic (1.1.15)
-<<<<<<< HEAD
-=======
+    atomic (1.1.16)
     bcrypt (3.1.7)
-    bcrypt-ruby (3.1.5)
-      bcrypt (>= 3.1.3)
     bootsy (2.0.7)
       carrierwave (~> 0.10.0)
       mini_magick (~> 3.7.0)
       remotipart (~> 1.2.1)
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     builder (3.1.4)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -46,6 +46,12 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     commonjs (0.2.7)
+    devise (3.2.4)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
     font-awesome-rails (4.0.3.1)
@@ -76,22 +82,16 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-<<<<<<< HEAD
-=======
     mini_magick (3.7.0)
       subexec (~> 0.2.1)
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     mini_portile (0.5.2)
     minitest (4.7.5)
     multi_json (1.9.0)
     nested_form (0.3.2)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
-<<<<<<< HEAD
-=======
     orm_adapter (0.5.0)
     pg (0.17.1)
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     polyglot (0.3.4)
     rack (1.5.2)
     rack-pjax (0.7.0)
@@ -107,12 +107,9 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.4)
       sprockets-rails (~> 2.0.0)
-<<<<<<< HEAD
-=======
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     rails_admin (0.6.1)
       builder (~> 3.1)
       coffee-rails (~> 4.0)
@@ -127,11 +124,8 @@ GEM
       remotipart (~> 1.0)
       safe_yaml (~> 1.0)
       sass-rails (~> 4.0)
-<<<<<<< HEAD
-=======
     rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     railties (4.0.4)
       actionpack (= 4.0.4)
       activesupport (= 4.0.4)
@@ -143,7 +137,7 @@ GEM
     ref (1.0.5)
     remotipart (1.2.1)
     safe_yaml (1.0.1)
-    sass (3.2.15)
+    sass (3.2.16)
     sass-rails (4.0.2)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.2.0)
@@ -161,16 +155,12 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-<<<<<<< HEAD
-    sqlite3 (1.3.9)
-=======
     subexec (0.2.3)
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
     thor (0.18.1)
-    thread_safe (0.2.0)
+    thread_safe (0.3.0)
       atomic (>= 1.1.7, < 2)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -187,27 +177,22 @@ GEM
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    warden (1.2.3)
+      rack (>= 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-=======
   bootsy
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
   coffee-rails (~> 4.0.0)
   devise
   jbuilder (~> 1.2)
   jquery-rails
   less-rails
-<<<<<<< HEAD
-  rails (= 4.0.4)
-=======
   pg
   rails (= 4.0.4)
   rails_12factor
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
   rails_admin
   sass-rails (~> 4.0.2)
   sdoc
