@@ -25,7 +25,6 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
@@ -50,8 +49,11 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 
+<<<<<<< HEAD
 #administration
 gem "rails_admin"
+=======
+>>>>>>> ee6d88ce036feb7ad5bb6aa4041695426b3b5b3c
 #rich text editor
 gem 'bootsy'
 

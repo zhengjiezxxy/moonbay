@@ -4,7 +4,7 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-   config.secret_key = 'a17699bfdbae162f1992669462abbfe255d73bafc260b597a9d3ec6895fe35feae9584cd26fbfbbeec0f2512be53d4d8df500f75326871afd778cc12d254041f'
+  config.secret_key = 'a17699bfdbae162f1992669462abbfe255d73bafc260b597a9d3ec6895fe35feae9584cd26fbfbbeec0f2512be53d4d8df500f75326871afd778cc12d254041f'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -103,7 +103,11 @@ Devise.setup do |config|
   # able to access the website for two days without confirming their account,
   # access will be blocked just in the third day. Default is 0.days, meaning
   # the user cannot access the website without confirming their account.
+<<<<<<< HEAD
   config.allow_unconfirmed_access_for = 2.days
+=======
+   config.allow_unconfirmed_access_for = 2.days
+>>>>>>> ee6d88ce036feb7ad5bb6aa4041695426b3b5b3c
 
   # A period that the user is allowed to confirm their account before their
   # token becomes invalid. For example, if set to 3.days, the user can confirm
@@ -219,7 +223,7 @@ Devise.setup do |config|
   # should add them to the navigational formats lists.
   #
   # The "*/*" below is required to match Internet Explorer requests.
-  # config.navigational_formats = ['*/*', :html]
+   config.navigational_formats = ['*/*', :html]
 
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :delete
