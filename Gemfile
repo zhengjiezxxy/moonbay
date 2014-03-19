@@ -49,11 +49,6 @@ gem 'twitter-bootstrap-rails'
 gem 'less-rails'
 gem 'therubyracer'
 
-<<<<<<< HEAD
-
-#administration
-gem "rails_admin"
-=======
 #rich text editor
 gem 'bootsy'
 
@@ -65,4 +60,3 @@ gem 'rails_admin'
 
 #authentication
 gem 'devise'
->>>>>>> dc4654f55a426fdeb4b28af7761d17268953ec81
