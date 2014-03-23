@@ -22,19 +22,26 @@
         <td><%= article.rate %></td>
         <td><%=t article.created_at %></td>
         <td>
+          <% if can? :update, @articles %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_article_path(article), :class => 'btn btn-mini' %>
+          <% end %>
+
+          <% if can? :destory, @articles %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                       article_path(article),
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-mini btn-danger' %>
+          <% end %>
         </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
+<% if can? :new, @articles %>
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_article_path,
             :class => 'btn btn-primary' %>
+<% end %>
