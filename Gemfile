@@ -46,12 +46,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails' , :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch=>"bootstrap3"
 gem 'less-rails'
 gem 'therubyracer'
 
-#administration
-gem "rails_admin"
 #rich text editor
 gem 'bootsy'
 
@@ -61,3 +59,6 @@ gem 'rails_12factor'
 
 #authentication
 gem 'devise'
+
+#different roles and abilities
+gem "cancan"
