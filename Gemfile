@@ -56,6 +56,8 @@ gem 'bootsy'
 #injected plugin heroku
 gem 'rails_12factor'
 
+#adminnistrator gem
+gem 'rails_admin'
 
 #authentication
 gem 'devise'
