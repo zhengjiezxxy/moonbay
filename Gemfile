@@ -64,3 +64,7 @@ gem 'devise'
 
 #different roles and abilities
 gem "cancan"
+
+#test
+gem 'rspec-rails'
+gem "capybara"
