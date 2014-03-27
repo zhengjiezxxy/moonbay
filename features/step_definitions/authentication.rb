@@ -4,3 +4,9 @@ Then /^I should be able to login$/ do
   click_button 'Sign in'
   page.should have_content 'Signed in'
 end
+
+Given /^I have a valid account$/ do
+create(:user)
+end
+
+

@@ -1,3 +1,4 @@
+@wip
 Feature: add a administrator
   there exists only a adminitrator who can
       new,edit,delete,view all articles

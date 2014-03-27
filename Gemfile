@@ -68,8 +68,9 @@ gem "cancan"
 #test
 group :test do
   gem 'cucumber-rails', :require => false
-    # database_cleaner is not required, but highly recommended
-    gem 'rspec-rails' 
-    gem "capybara"
-   gem 'database_cleaner'
+  # database_cleaner is not required, but highly recommended
+  gem 'rspec-rails' 
+  gem "capybara"
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
 end

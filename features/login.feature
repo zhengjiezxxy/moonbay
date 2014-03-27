@@ -1,6 +1,7 @@
+@focus
 Feature: Authentication (No Web Steps, Declarative)
   As A User
-    In order to gain access to skynet
+    In order to have personal recommendation articles
     I want to be able to login and logout
 
 Scenario: Logging in
