@@ -66,5 +66,10 @@ gem 'devise'
 gem "cancan"
 
 #test
-gem 'rspec-rails'
-gem "capybara"
+group :test do
+  gem 'cucumber-rails', :require => false
+    # database_cleaner is not required, but highly recommended
+    gem 'rspec-rails' 
+    gem "capybara"
+   gem 'database_cleaner'
+end
