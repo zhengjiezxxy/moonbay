@@ -1,4 +1,3 @@
-@focus
 Feature: Authentication (No Web Steps, Declarative)
   As A User
     In order to have personal recommendation articles
@@ -7,3 +6,7 @@ Feature: Authentication (No Web Steps, Declarative)
 Scenario: Logging in
     Given I have a valid account
     Then I should be able to login
+
+Scenario: Login failure
+    Given I don't have a valid account
+    Then I shouldn't be able to login

@@ -1,18 +1,14 @@
-@wip
-Feature: add a administrator
-  there exists only a adminitrator who can
-      new,edit,delete,view all articles
-      new,edit,delete,view all users
+Feature: manage resources
+  As a administrator, I want to:
+    manage(new,edit,delete,view) all articles
+    new,edit,delete,view all users
 
-  Background: 
-    Given a global administrator named "zhengjie"
+Scenario: manage articles
+  Given I am logined in as administrator
+  Then I can manage articles
 
-  Scenario: new articles
-    When I am logged in as "zhengjie"
-    Then I can new a article
-
-  Scenario: edit articles
-    When I am logged in as "zhengjie"
-    Then I can edit a article
+Scenario: manage users
+  Given I am logged in as administrator
+  Then I can manage users
 
   
