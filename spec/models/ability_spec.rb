@@ -9,6 +9,7 @@ describe Ability do
     @user.roles << create(:role,:name=>:Administrator)
     ability = Ability.new(@user)
     ability.can?(:manage,:article).should be_true
+    ability.can?(:new,:article).should be_true
     ability.can?(:manage,:user).should be_true
   end
 

@@ -10,11 +10,4 @@ describe "articles/index" do
     expect(view).to render_template(:partial=>"_article",:count=>2)
   end
 
-  it "doesn't show new edit delete button or link for reader" do
-    user = create(:user)
-    user.roles << create(:role,:name=>:Reader)
-    render
-    rendered.should_not have_content(:New)
-  end
-
 end

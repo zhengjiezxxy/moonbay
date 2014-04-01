@@ -10,7 +10,7 @@
     <%= render :partial=> 'article',locals: {article: article, index: index} %>
   <% end %>
 </div>
-  <% if current_user.can? :new, :article %>
+  <% if can? :new, :article %>
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_article_path,
               :class => 'btn btn-primary' %>
