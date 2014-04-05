@@ -10,6 +10,12 @@
     <%= render :partial=> 'article',locals: {article: article, index: index} %>
   <% end %>
 </div>
+
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+
   <% if can? :new, :article %>
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_article_path,

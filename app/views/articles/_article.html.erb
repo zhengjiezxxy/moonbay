@@ -11,12 +11,13 @@
         <% end %>
           <div class="panel-body">
             <%= article.arthor %>
+            <%= "Rate:" %>
             <%= article.rate %>
 
             <% if article.body.nil? %>
               <%= article.body %>
             <% else %>
-              <%= article.body[0,99] %>
+              <%= simple_format(article.body[0,99]) %>
             <% end %>
 
             <%=link_to "......",article_path(article) %>

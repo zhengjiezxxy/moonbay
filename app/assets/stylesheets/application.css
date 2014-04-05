@@ -18,3 +18,8 @@
 body {
   font-family: 宋体;
 }
+
+iframe {
+width: 700px !important;
+}
+
