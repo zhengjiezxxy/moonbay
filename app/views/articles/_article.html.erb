@@ -4,19 +4,21 @@
             <%= link_to article.title,"#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion" %>
           </h4>
         </div>
-        <% if index == 0 %>
-          <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
-        <% else %>
-          <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
-        <% end %>
+      <% if index == 0 || index == 1%>
+        <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
+      <% else %>
+        <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
+      <% end %>
           <div class="panel-body">
-            <%= article.arthor %>
-            <%= article.rate %>
+            <p display="inline">
+            作者：<%= article.arthor %>
+            星级：<%= article.rate %>
+            </p>
 
             <% if article.body.nil? %>
               <%= article.body %>
             <% else %>
-              <%= article.body[0,99] %>
+              <%= simple_format(article.body[0,299]) %>
             <% end %>
 
             <%=link_to "......",article_path(article) %>
@@ -32,7 +34,7 @@
                         :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                           :class => 'btn btn-mini btn-danger' %>
             <%# end %>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
 

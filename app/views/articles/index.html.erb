@@ -1,17 +1,45 @@
-<%- model_class = Article -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+<style>
+  body{
+  }
+  h4{
+    text-align:center;
+    color:#009999;
+  }
+</style>
+
+<div >
+  <h4 >月儿弯弯 有你有我</h4>
 </div>
 
-
-<!-- use accordion for index page -->
-<div class="panel-group" id="accordion">
-  <% @articles.each_with_index do |article,index| %>
-    <%= render :partial=> 'article',locals: {article: article, index: index} %>
-  <% end %>
+<div class="col-sm-4">
+  <!-- use accordion for index page -->
+  <div class="panel-group" id="accordion">
+    <% @articles.every_n_with_index(0,2) do |article,index| %>
+      <%= render :partial=> 'article',locals: {article: article, index: index} %>
+    <% end %>
+  </div>
 </div>
+
+<div class="col-sm-4">
+  <!-- use accordion for index page -->
+  <div class="panel-group" id="accordion">
+    <% @articles.every_n_with_index(1,2) do |article,index| %>
+      <%= render :partial=> 'article',locals: {article: article, index: index} %>
+    <% end %>
+  </div>
+</div>
+
   <% if can? :new, :article %>
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_article_path,
               :class => 'btn btn-primary' %>
   <% end %>
+
+<div class="col-sm-4">
+<p> Recomended for you </p>
+  <ul>
+  <li> the moon man myth </li>
+  <li> the ruby programming language </li>
+  <li> The STL library </li>
+  </ul>
+</div>
