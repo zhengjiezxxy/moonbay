@@ -1,4 +1,5 @@
-<%= form_for @article, :html => { :class => 'form-horizontal' } do |f| %>
+<div class="col-md-9">
+<%= form_for @article, :html => { :class => 'form-horizontal',role:'form' } do |f| %>
   <div class="form-group">
     <%= f.label :title  %>
       <%= f.text_field :title, :class => 'form_control' %>
@@ -10,7 +11,7 @@
 
   <div class="form-group">
     <%= f.label :body %>
-    <%= f.bootsy_area :body, :class => 'field col-sm-9',rows:30 %>
+    <%= f.bootsy_area :body, id: 'bootsy-textarea',:class => 'field col-sm-9',rows:30 %>
   </div>
 
   <div class="form-group">
@@ -24,3 +25,8 @@
                 articles_path, :class => 'btn' %>
   </div>
 <% end %>
+</div>
+<script src="assets/javascripts/locales/bootstrap-wysihtml5.zh-CN.js"></script>
+<script type="text/javascript">
+  $('textarea.bootsy_text_area').wysihtml5({locale: "zh-CN"});
+  </script>

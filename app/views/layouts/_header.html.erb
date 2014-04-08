@@ -2,15 +2,14 @@
     <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#"><img src="/assets/月儿湾23.png"></a>
-          <%# render "layouts/logo" %>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Home", articles_path %></li>
-            <li><%= link_to "Level 1" %></li>
-            <li><%= link_to "Level 2" %></li>
-            <li><%= link_to "Level 3" %></li>
-            <li><%= link_to "Contact Us" %></li>
+            <li><%= link_to t("Home"), articles_path %></li>
+            <li><%= link_to t("Level 1") %></li>
+            <li><%= link_to t("Level 2") %></li>
+            <li><%= link_to t("Level 3") %></li>
+            <li><%= link_to t("Contact Us") %></li>
             <li class="dropdown">
                 <% if user_signed_in? %>
                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -18,13 +17,13 @@
                    <b class="caret"></b>
                  </a>
                   <ul class="dropdown-menu">
-                    <li> <a href="#"> Profile </a> </li>
-                    <li> <%= link_to "sign out", destroy_user_session_path, method: :delete %>
+                    <li> <%= link_to t("Profile") %> </li>
+                    <li> <%= link_to t("Sign Out"), destroy_user_session_path, method: :delete %>
                     </li>
                   </ul>
                 <% else %>
-                  <li><%= link_to "Sign up", new_user_registration_path %> </li>
-                  <li><%= link_to "Sign in", new_user_session_path %> </li>
+                  <li><%= link_to t("Sign up"), new_user_registration_path %> </li>
+                  <li><%= link_to t("Sign in"), new_user_session_path %> </li>
                 <% end %>
           </ul>
         </div>

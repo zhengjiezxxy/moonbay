@@ -29,13 +29,18 @@
   </div>
 </div>
 
+
+<div class="col-sm-4">
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+
   <% if can? :new, :article %>
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_article_path,
               :class => 'btn btn-primary' %>
   <% end %>
-
-<div class="col-sm-4">
 <p> Recomended for you </p>
   <ul>
   <li> the moon man myth </li>
