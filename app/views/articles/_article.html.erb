@@ -1,15 +1,19 @@
     <div class="panel panel-default">
         <div class="panel-heading">
-          <h4 class="panel-title">
-            <%= link_to article.title,"#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion" %>
+          <h4 class="accordion-panel-title">
+            <% if article.title.length > 18 %>
+            <%= link_to article.title[0..15]+"...","#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion#{numAccd}" %>
+            <% else %>
+            <%= link_to article.title,"#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion#{numAccd}" %>
+            <% end %>
           </h4>
         </div>
-      <% if index == 0 || index == 1%>
+      <% if ((index == 0) || (index == 1)) %>
         <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
       <% else %>
         <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
       <% end %>
-          <div class="panel-body">
+          <div class="accordion-panel-body">
             <p display="inline">
             作者：<%= article.arthor %>
             星级：<%= article.rate %>
@@ -18,7 +22,7 @@
             <% if article.body.nil? %>
               <%= article.body %>
             <% else %>
-              <%= simple_format(article.body[0,299]) %>
+              <%= simple_format(strip_tags(article.body[0,299])) %>
             <% end %>
 
             <%=link_to "......",article_path(article) %>
