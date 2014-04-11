@@ -60,7 +60,7 @@ gem 'therubyracer'
 gem 'bootsy'
 
 #injected plugin heroku
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 #adminnistrator gem
 gem 'rails_admin'

@@ -21,6 +21,5 @@ module Moonbay
       config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
       config.i18n.available_locales = ["zh-CN"]
       config.i18n.default_locale = :'zh-CN'
-     config.assets.initialize_on_precompile = false
   end
 end
