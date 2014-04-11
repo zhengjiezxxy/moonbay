@@ -10,41 +10,39 @@
 </div>
 
 <div class="row">
-<div class="col-sm-4">
-  <!-- use accordion for index page -->
-  <div class="panel-group" id="accordion0">
-    <% @articles.every_n_with_index(0,2) do |article,index| %>
-    <% numAccd = 0 %>
-      <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
-    <% end %>
-  </div>
-</div>
-
-<div class="col-sm-4">
-  <!-- use accordion for index page -->
-  <div class="panel-group" id="accordion1">
-    <% @articles.every_n_with_index(1,2) do |article,index| %>
-    <% numAccd = 1 %>
-      <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
-    <% end %>
-  </div>
-</div>
-
-<div class="col-sm-4">
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title"> Recomended for you </h3>
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion0">
+      <% @articles.every_n_with_index(0,3) do |article,index| %>
+      <% numAccd = 0 %>
+        <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
+      <% end %>
     </div>
-    <ul class="list-group">
-    <li class="list-group-item"> the moon man myth </li>
-    <li class="list-group-item"> the ruby programming language </li>
-    <li class="list-group-item"> The STL library </li>
-    </ul>
   </div>
-</div>
-</div>
+
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion1">
+      <% @articles.every_n_with_index(1,3) do |article,index| %>
+      <% numAccd = 1 %>
+        <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion2">
+      <% @articles.every_n_with_index(2,3) do |article,index| %>
+      <% numAccd = 2 %>
+        <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
+      <% end %>
+    </div>
+  </div>
+</div>  <%# row %>
+
 <ul class="pager">
-  <li><a href="#">Previous</a></li>
-  <li><a href="#">Next</a></li>
+<li><a href="#">Previous</a></li>
+<li><a href="#">Next</a></li>
 </ul>
 
