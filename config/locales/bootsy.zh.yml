@@ -1,0 +1,28 @@
+zh-CN:
+  bootsy:
+    action:
+      refresh: 刷新
+      destroy: 删除
+      close: 关闭
+      load: 加载中
+      upload: 上传新照片
+    image_gallery: 照片库
+    image:
+      s: 照片
+      p: 照片
+      size: 尺寸
+      large: 大
+      medium: 中
+      small: 小
+      original: 原本
+      new: 新照片
+      confirm:
+        destroy: 你确定要删除这张照片吗?
+      position:
+        left: 左
+        right: 右
+        inline: 嵌入
+    no_images_uploaded: 目前照片库里没有任何照片.
+    js:
+      alert_unsaved: 你尚未保存.
+

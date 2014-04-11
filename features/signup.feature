@@ -4,4 +4,4 @@ Feature: Users can registered as reader
 
 Scenario: Sign up
   Given I am a guest
-  Then I can sign up
+  Then I can register as a reader

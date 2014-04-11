@@ -1,0 +1,24 @@
+zh-CN:
+  "Edit Article": 编辑文章
+  Home: 主页
+  "Level 1": 一级难度
+  "Level 2": 二级难度
+  "Level 3": 三级难度
+  "Contact Us": 与我们联系
+  Profile: 个人档案
+  "Sign In": 登录
+  "Sign Out": 注销
+  "Sign Up": 注册
+  article: 文章 
+  cancel: 取消
+  title: 标题
+  edit: 编辑
+  activerecord:
+    models:
+      article: 文章
+    attributes:
+      article:
+        title: "标题:"
+        body: "内容:"
+        arthor: "作者:"
+        rate: "星级:"

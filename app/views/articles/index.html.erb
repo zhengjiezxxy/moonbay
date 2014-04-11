@@ -1,23 +1,50 @@
-<%- model_class = Article -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
-</div>
-
-
-<!-- use accordion for index page -->
-<div class="panel-group" id="accordion">
-  <% @articles.each_with_index do |article,index| %>
-    <%= render :partial=> 'article',locals: {article: article, index: index} %>
-  <% end %>
-</div>
-
-<ul class="pager">
-  <li><a href="#">Previous</a></li>
-  <li><a href="#">Next</a></li>
-</ul>
-
+<div >
+  <h4 >月儿弯弯 有你有我</h4>
+  <div class="newButton">
   <% if can? :new, :article %>
   <%= link_to t('.new', :default => t("helpers.links.new")),
               new_article_path,
               :class => 'btn btn-primary' %>
   <% end %>
+  </div>
+</div>
+
+<div class="row">
+<div class="col-sm-4">
+  <!-- use accordion for index page -->
+  <div class="panel-group" id="accordion0">
+    <% @articles.every_n_with_index(0,2) do |article,index| %>
+    <% numAccd = 0 %>
+      <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
+    <% end %>
+  </div>
+</div>
+
+<div class="col-sm-4">
+  <!-- use accordion for index page -->
+  <div class="panel-group" id="accordion1">
+    <% @articles.every_n_with_index(1,2) do |article,index| %>
+    <% numAccd = 1 %>
+      <%= render :partial=> 'article',locals: {article: article, index: index, numAccd: numAccd} %>
+    <% end %>
+  </div>
+</div>
+
+<div class="col-sm-4">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title"> Recomended for you </h3>
+    </div>
+    <ul class="list-group">
+    <li class="list-group-item"> the moon man myth </li>
+    <li class="list-group-item"> the ruby programming language </li>
+    <li class="list-group-item"> The STL library </li>
+    </ul>
+  </div>
+</div>
+</div>
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#">Next</a></li>
+</ul>
+

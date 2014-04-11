@@ -9,7 +9,7 @@ class Ability
        if user.role? :administrator 
           can :manage , :all 
         elsif user.role? :editor 
-            can :manage , :article 
+            can :manage , [ Article ] 
         elsif user.role? :reader 
           can :read , [ Article ] 
         end 

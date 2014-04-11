@@ -1,39 +1,43 @@
     <div class="panel panel-default">
         <div class="panel-heading">
-          <h4 class="panel-title">
-            <%= link_to article.title,"#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion" %>
+          <h4 class="accordion-panel-title">
+            <% if article.title.length > 18 %>
+            <%= link_to article.title[0..15]+"...","#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion#{numAccd}" %>
+            <% else %>
+            <%= link_to article.title,"#collapse#{index}",'data-toggle'=>"collapse", 'data-parent'=>"#accordion#{numAccd}" %>
+            <% end %>
           </h4>
         </div>
-        <% if index == 0 %>
-          <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
-        <% else %>
-          <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
-        <% end %>
-          <div class="panel-body">
-            <%= article.arthor %>
-            <%= "Rate:" %>
-            <%= article.rate %>
+      <% if ((index == 0) || (index == 1)) %>
+        <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
+      <% else %>
+        <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
+      <% end %>
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：<%= article.arthor %>
+            星级：<%= article.rate %>
+            </p>
 
             <% if article.body.nil? %>
               <%= article.body %>
             <% else %>
-              <%= simple_format(article.body[0,99]) %>
+              <%= simple_format(strip_tags(article.body[0,299])) %>
             <% end %>
 
             <%=link_to "......",article_path(article) %>
-            <%# if can? :update, @articles %>
+            <% if can? :update, @articles %>
             <%= link_to t('.edit', :default => t("helpers.links.edit")),
                         edit_article_path(article), :class => 'btn btn-mini' %>
-            <%# end %>
+            <% end %>
 
-            <%# if can? :destory, @articles %>
+            <% if can? :destory, @articles %>
             <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
                         article_path(article),
                         :method => :delete,
                         :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                           :class => 'btn btn-mini btn-danger' %>
-            <%# end %>
-            </div>
+            <% end %>
+          </div>
         </div>
-    </div>
-
+      </div>
