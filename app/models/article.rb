@@ -6,5 +6,15 @@ module Enumerable
   end
 end
 class Article < ActiveRecord::Base
+  validate :title, :arthor ,:body ,:rate, presence: true
+
+  before_create do
+    if self.nil?  
+      self.title = "error"
+      self.arthor = "error"
+      self.rate = "error"
+      self.body ="error"
+    end
+  end
   include Bootsy::Container
 end
