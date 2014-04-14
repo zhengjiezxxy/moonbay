@@ -8,7 +8,7 @@
             <% end %>
           </h4>
         </div>
-      <% if ((index == 0) || (index == 1)) %>
+      <% if ((index == 0) || (index == 1) ||(index == 2)) %>
         <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse in"} %>
       <% else %>
         <%= tag :div ,{:id=>"collapse#{index}", :class=>"panel-collapse collapse"} %>
