@@ -16,5 +16,4 @@ class Article < ActiveRecord::Base
       self.body ="error"
     end
   end
-  include Bootsy::Container
 end

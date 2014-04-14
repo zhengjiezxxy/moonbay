@@ -31,4 +31,16 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+
+#ckeditor
+  config.model Article do
+    edit do
+      # For RailsAdmin >= 0.5.0
+      field :body, :ck_editor
+      # For RailsAdmin < 0.5.0
+      # field :description do
+      #   ckeditor true
+      # end
+    end
+  end
 end

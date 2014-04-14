@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby "1.9.3"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :production do
@@ -57,13 +57,17 @@ gem 'less-rails'
 gem 'therubyracer'
 
 #rich text editor
-gem 'bootsy'
+#gem 'bootsy'
+gem 'ckeditor'
+gem 'paperclip'
+#non-digest assets
+gem "non-stupid-digest-assets"
 
 #injected plugin heroku
 gem 'rails_12factor', group: :production
 
 #adminnistrator gem
-gem 'rails_admin'
+gem 'rails_admin', :git=> 'git@github.com:sferik/rails_admin.git'
 
 #authentication
 gem 'devise'
