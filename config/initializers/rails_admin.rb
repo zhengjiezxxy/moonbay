@@ -34,6 +34,7 @@ RailsAdmin.config do |config|
 
 #ckeditor
   config.model Article do
+    include_all_fields
     edit do
       # For RailsAdmin >= 0.5.0
       field :body, :ck_editor

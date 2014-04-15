@@ -22,7 +22,7 @@
 
   <div class="form-group">
     <%# f.label :body %>
-    <%= f.cktext_area :body ,:class=>"form-control", rows:30%>
+    <%= f.cktext_area :body ,:class=>"form-control", rows:30, :ckeditor => {:language => 'zh-CN'}%>
   </div>
 
   <div class="form-actions">
