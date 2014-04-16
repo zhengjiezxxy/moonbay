@@ -1,6 +1,7 @@
 CKEDITOR.editorConfig = function( config ) {
     config.language = 'zh-CN';
     config.uiColor = '#AADC6E';
+    config.height = '40em';
     config.toolbarGroups = [
     { name: 'basicstyles', groups: ['tools', 'basicstyles', 'cleanup' , 'colors', 'styles' ] },
     { name: 'editing',     groups: ['find', 'selection', 'spellchecker','links','others'] },

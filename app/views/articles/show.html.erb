@@ -10,7 +10,8 @@
   </div>
 
   <div class="panel-body ">
-  <p><%= simple_format(@article.body) %></p>
+    <%= sanitize @article.body,  attributes: %w(id class style height width alti href src) %>
+    <%#  @article.body %>
   </div>
 
 <div class="form-actions">

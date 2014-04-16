@@ -62,6 +62,8 @@ gem 'ckeditor'
 gem 'paperclip'
 #non-digest assets
 gem "non-stupid-digest-assets"
+#better form
+gem 'simple_form'
 
 #injected plugin heroku
 gem 'rails_12factor', group: :production
