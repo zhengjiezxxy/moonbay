@@ -69,7 +69,7 @@ gem 'simple_form'
 gem 'rails_12factor', group: :production
 
 #adminnistrator gem
-gem 'rails_admin', :git=> 'git@github.com:sferik/rails_admin.git'
+gem 'rails_admin'
 
 #authentication
 gem 'devise'
