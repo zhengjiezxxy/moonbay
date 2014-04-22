@@ -59,7 +59,7 @@ gem 'therubyracer'
 #rich text editor
 #gem 'bootsy'
 gem 'ckeditor'
-gem 'paperclip'
+gem 'paperclip','4.1.1'
 #non-digest assets
 gem "non-stupid-digest-assets"
 #better form

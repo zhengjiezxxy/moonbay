@@ -1,0 +1,756 @@
+POST /users/sign_out HTTP/1.1
+Host: moonbay.herokuapp.com
+Connection: keep-alive
+Content-Length: 84
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://moonbay.herokuapp.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://moonbay.herokuapp.com/
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,ja;q=0.6,zh-CN;q=0.4,zh-TW;q=0.2
+Cookie: _moonbay_session=MjdEczFPaTBPR0prWDMydVpaRWQ3MGgrM2RobDIwcC9aM3BKbXBhUnhvZGFkZHlmMFBqRHEzZEYrSkVDcWJiRWZrM3k4VVZ1TzFiU2NFcnJ2anJFMjJaQmJxY3AvSW1wQXNtdWtqNU9Ba3BFNzh5VDBpTWpyWjhPdVlLRHJqOVRVZXpzc3NiN1lyU1RPNHNwQlRETG8wQzIrMGtQbjRQQnYxUXJzSE1qWDQ5NitscTJsM2s3dENLZnorS2VSK1RPbjZuWVJMNllENUc3aDkvSHZ3YkhVRk9Cd0pEV1pId3ZsS1JOZ1FGb0lpNVRUYjB4SnZpZjdtMzQxWlJJck1lMlllSUo1M1Znc0c0UktDdWVsSjE0RWdUclBTbldCdmFoNE9rMllkWWpqMmRVWERYbFhaZG5XTHJteXRMM05XTllKV1Bsd2paUklFWmlTQmJhNitsZGIvbmtIakpxSkJTMXVwd0ZnTldzYW5zeDZFcFJLZ0xSK2J4bURyU1ZXRUpTLS1md3RjTkxONHY5S3RIS1dhelhXVTFnPT0%3D--03fc8a2a95921cd8c2356189056519c001cf6d53
+
+_method=delete&authenticity_token=4IfUCIuRzDqiRzqeu%2B8QYLw8txat1YvPAjh%2Be5hFjiI%3DHTTP/1.1 302 Found 
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 Apr 2014 14:30:13 GMT
+Location: http://moonbay.herokuapp.com/
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2014-02-24)
+Set-Cookie: request_method=DELETE; path=/
+Set-Cookie: _moonbay_session=elVNKzROSFAvZi9TMThWZmJPMHBRcG41S1c0azl2WUJaa1BDZk00cm53SUtJOStvdjJlWjVMQ1A4WFRENUd0WlprVjNFZzZoL0czVXFvV3h0RWYya3FsdkthNGFnVm5RUCsrblpYM21Mc2RsMjMrZXVYeHJIUmtlL1ZlSnBjaE5GYTNBR2o2WnpMZkdRakw2bG45KytkdGVZbHRXbC96YzUzZkc5VzhqVG1HSU8zci9ESWNiWXdiVGdEM2lIdGlXLS15WlFuVDlJUVlGaHhSb1IveWJ6a2dnPT0%3D--7f6df6ce5c3cadeef57c1f8894d79904e9dd7403; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 8595461b-517e-4180-afb1-24c42d6922aa
+X-Runtime: 0.077392
+X-Ua-Compatible: chrome=1
+X-Xss-Protection: 1; mode=block
+Content-Length: 95
+Connection: keep-alive
+
+<html><body>You are being <a href="http://moonbay.herokuapp.com/">redirected</a>.</body></html>GET / HTTP/1.1
+Host: moonbay.herokuapp.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Referer: http://moonbay.herokuapp.com/
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,ja;q=0.6,zh-CN;q=0.4,zh-TW;q=0.2
+Cookie: request_method=DELETE; _moonbay_session=elVNKzROSFAvZi9TMThWZmJPMHBRcG41S1c0azl2WUJaa1BDZk00cm53SUtJOStvdjJlWjVMQ1A4WFRENUd0WlprVjNFZzZoL0czVXFvV3h0RWYya3FsdkthNGFnVm5RUCsrblpYM21Mc2RsMjMrZXVYeHJIUmtlL1ZlSnBjaE5GYTNBR2o2WnpMZkdRakw2bG45KytkdGVZbHRXbC96YzUzZkc5VzhqVG1HSU8zci9ESWNiWXdiVGdEM2lIdGlXLS15WlFuVDlJUVlGaHhSb1IveWJ6a2dnPT0%3D--7f6df6ce5c3cadeef57c1f8894d79904e9dd7403
+If-None-Match: "e4e84fce5d9c05ed9a0ce6827d5f67f8"
+
+HTTP/1.1 302 Found 
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 Apr 2014 14:30:13 GMT
+Location: http://moonbay.herokuapp.com/users/sign_in
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2014-02-24)
+Set-Cookie: request_method=GET; path=/
+Set-Cookie: _moonbay_session=S0VJdDFnNFkyck1STjJHTktnR29tSU0vSytkeWNFTkc0SStKUTFmdkJDRlpZMDhTUnh2N3ZJNHRvOWpBZFQ2M3ZuazhiRTJEQ0ovdStIS0NKbGNSOC91c3Y2NUxmbFJnMWJ4SkxRbnJsVXhQeHFPa3hnUHlYT29rdjA5cVpydExUY3h5ZC9Fa0xnbjRNMnJHV05paHkyMFJuYnIxYVRxYXZtU2RaMDQwYjFSOVJIditWbTQvWkhnMjdQQ0dGRFRKbWRydTlBWEZpS3AzOXF0QnBMeHEweEdDS1pQcHRLa3pqcTRVSnJTNUxRcEZOSzg3cm85aDJhZDRNcURsUUtZMXlQd0IyUjBGYkxtNG05djEvWElDYjVLUytFM1ArNGFsMzdFM1NaTjVlKzA9LS1nL2hsNHJjNWhmMjlxYmtYazlYVXlBPT0%3D--961727947dd6eaadda21774362b438e3deff38c5; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: a770cd9a-a17c-4d4f-9bb2-b81ca0c10371
+X-Runtime: 0.015039
+X-Ua-Compatible: chrome=1
+X-Xss-Protection: 1; mode=block
+Content-Length: 108
+Connection: keep-alive
+
+<html><body>You are being <a href="http://moonbay.herokuapp.com/users/sign_in">redirected</a>.</body></html>GET /users/sign_in HTTP/1.1
+Host: moonbay.herokuapp.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Referer: http://moonbay.herokuapp.com/
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,ja;q=0.6,zh-CN;q=0.4,zh-TW;q=0.2
+Cookie: request_method=GET; _moonbay_session=S0VJdDFnNFkyck1STjJHTktnR29tSU0vSytkeWNFTkc0SStKUTFmdkJDRlpZMDhTUnh2N3ZJNHRvOWpBZFQ2M3ZuazhiRTJEQ0ovdStIS0NKbGNSOC91c3Y2NUxmbFJnMWJ4SkxRbnJsVXhQeHFPa3hnUHlYT29rdjA5cVpydExUY3h5ZC9Fa0xnbjRNMnJHV05paHkyMFJuYnIxYVRxYXZtU2RaMDQwYjFSOVJIditWbTQvWkhnMjdQQ0dGRFRKbWRydTlBWEZpS3AzOXF0QnBMeHEweEdDS1pQcHRLa3pqcTRVSnJTNUxRcEZOSzg3cm85aDJhZDRNcURsUUtZMXlQd0IyUjBGYkxtNG05djEvWElDYjVLUytFM1ArNGFsMzdFM1NaTjVlKzA9LS1nL2hsNHJjNWhmMjlxYmtYazlYVXlBPT0%3D--961727947dd6eaadda21774362b438e3deff38c5
+
+HTTP/1.1 200 OK 
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 Apr 2014 14:30:13 GMT
+Etag: "07859dac68afaaa062e693ac4c4698de"
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2014-02-24)
+Set-Cookie: _moonbay_session=REZ3UG9vVGg4ZmNwYkFaYmhSTU1QcWpTUnVGOXlOc29TbnpYeHQ1ZTB3MzRWUDYwNUw1UnUrcXhraVJ0bDJkTmJKdCtkYUxnYzBOTnBhdVIyVWtPa3MzV1NhM3EvcDRkVGhIaDQxdk82WTF4RzFkbXlMTE8rUFJFNGlZY1lJbzJna0w3NWFIU1JubitPZDVDemxTY2NRall1SDhBLzRYd1lPWERPOTB2YzFHcFM0dGRYMXlTNXk5czkxV1k4dW5Penk3Q00vT3lnT1Ryd3c0dEFkZ1VYZmZTSndlWTJPTWRVY3R0QXVTZWJpMDFiSXlYU1FNT3QxQ2wzSUp3V3phL0RIUDk2d00yTkVkZXZ2K2VQeUhrNDNXR0xwUktvdmwxcUtBS2U3Y29IbWZyRVFlNm1JbnhDd2RoUUlUTCtOcHJzbW9zenJiOTZVUDNRUytvZUZqRG5nPT0tLTN5MDJRak9udFhJUk14aDBiVXFOS3c9PQ%3D%3D--fdb2cf323a4c8e63e60057f2f6c9c565b4514dc9; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 99925c75-6ba9-4867-bc1c-b0dca208c5e3
+X-Runtime: 0.048888
+X-Ua-Compatible: chrome=1
+X-Xss-Protection: 1; mode=block
+Content-Length: 3466
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonbay</title>
+  <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <link data-turbolinks-track="true" href="/assets/application-5e2b8462f86c1c62c9071d82edaf3bb3.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/application-c2ff31ef95787720898e2f0237e62198.js"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="P84rO6TcL6uwToxkq3dBxDweiO73qONKO7Ox+5KvWKk=" name="csrf-token" />
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" >
+    <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img alt="Moonbay23" src="/assets/moonbay23-3e4dc7a6d469c222770aa0822b4d9f41.png" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/articles">主页</a></li>
+            <li><a href="/users/sign_in">一级难度</a></li>
+            <li><a href="/users/sign_in">二级难度</a></li>
+            <li><a href="/users/sign_in">三级难度</a></li>
+            <li><a href="/users/sign_in">与我们联系</a></li>
+            <li class="dropdown">
+                  <li><a href="/users/sign_up"><span class="translation_missing" title="translation missing: zh-CN.Sign up">Sign Up</span></a> </li>
+                  <li><a href="/users/sign_in"><span class="translation_missing" title="translation missing: zh-CN.Sign in">Sign In</span></a> </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+
+<div class="container">
+
+  <p class="alert">继续操作前请注册或者登录。</p>
+
+  <div class="row">
+    <style type="text/css">
+body{
+  background-image:url("/assets/moonbay28.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.midposition{
+  display:table-cell;
+  float:none;
+  width:200px;
+  height:400px;
+  vertical-align:middle;
+}
+
+</style>
+
+<div class="col-sm-3 col-sm-offset-8">
+<div class="midposition">
+
+<form accept-charset="UTF-8" action="/users/sign_in" class="new_user" id="new_user" method="post" role="form"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="P84rO6TcL6uwToxkq3dBxDweiO73qONKO7Ox+5KvWKk=" /></div>
+
+  <div class="form-group">
+  <div><label for="user_email">Email</label>
+  <input autofocus="autofocus" class="form-control" id="user_email" name="user[email]" type="email" value="" /></div>
+  </div>
+
+  <div class="form-group">
+  <div><label for="user_password">Password</label>
+    <input autocomplete="off" class="form-control" id="user_password" name="user[password]" type="password" /></div>
+
+    <div class="checkbox">
+    <input name="user[remember_me]" type="hidden" value="0" /><input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" /> <label for="user_remember_me">Remember me</label>
+    </div>
+
+  <div><input class="btn btn-default" name="commit" type="submit" value="Sign in" /></div>
+</form></div>
+</div>
+
+
+  <a href="/users/sign_up">Sign up</a><br />
+
+  <a href="/users/password/new">Forgot your password?</a><br />
+
+
+
+
+
+</div>
+
+</body>
+</html>
+POST /users/sign_in HTTP/1.1
+Host: moonbay.herokuapp.com
+Connection: keep-alive
+Content-Length: 218
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://moonbay.herokuapp.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://moonbay.herokuapp.com/users/sign_in
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,ja;q=0.6,zh-CN;q=0.4,zh-TW;q=0.2
+Cookie: _moonbay_session=REZ3UG9vVGg4ZmNwYkFaYmhSTU1QcWpTUnVGOXlOc29TbnpYeHQ1ZTB3MzRWUDYwNUw1UnUrcXhraVJ0bDJkTmJKdCtkYUxnYzBOTnBhdVIyVWtPa3MzV1NhM3EvcDRkVGhIaDQxdk82WTF4RzFkbXlMTE8rUFJFNGlZY1lJbzJna0w3NWFIU1JubitPZDVDemxTY2NRall1SDhBLzRYd1lPWERPOTB2YzFHcFM0dGRYMXlTNXk5czkxV1k4dW5Penk3Q00vT3lnT1Ryd3c0dEFkZ1VYZmZTSndlWTJPTWRVY3R0QXVTZWJpMDFiSXlYU1FNT3QxQ2wzSUp3V3phL0RIUDk2d00yTkVkZXZ2K2VQeUhrNDNXR0xwUktvdmwxcUtBS2U3Y29IbWZyRVFlNm1JbnhDd2RoUUlUTCtOcHJzbW9zenJiOTZVUDNRUytvZUZqRG5nPT0tLTN5MDJRak9udFhJUk14aDBiVXFOS3c9PQ%3D%3D--fdb2cf323a4c8e63e60057f2f6c9c565b4514dc9
+
+utf8=%E2%9C%93&authenticity_token=P84rO6TcL6uwToxkq3dBxDweiO73qONKO7Ox%2B5KvWKk%3D&user%5Bemail%5D=zhengjiezxxy2010%40gmail.com&user%5Bpassword%5D=19870610&user%5Bremember_me%5D=0&user%5Bremember_me%5D=1&commit=Sign+inHTTP/1.1 302 Found 
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 Apr 2014 14:30:42 GMT
+Location: http://moonbay.herokuapp.com/
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2014-02-24)
+Set-Cookie: request_method=POST; path=/
+Set-Cookie: remember_user_token=BAhbB1sGaQZJIiIkMmEkMTAkdU5IbmJONEM4UTlBbTV0Y2hEL2tBTwY6BkVU--f4ed03fa889ae69e56f15d204042bcfdd923831e; path=/; expires=Sun, 04 May 2014 14:30:42 -0000; HttpOnly
+Set-Cookie: _moonbay_session=WTlaNGdUaFpEYmdIVU1YMVdBWXBGVkNDcHZpeXRwQkVvNmU5MUQveDN2RmE5M0NYMVVtNVlpMU1acXAwd2RQVmxvSm9rczFWN2Q4OHo2cy8reHQreDcyaXlBSzhubkYyMk8vT2ZuRHJYT1FReTJSeVJjdjZrOVAwZjFWT2dqNEozMjZ5cmhtaitJckxRbnc2YzJlUUFuOVBpcW1iM2UxeGJHRXFvNnZRUHE4T3FpendDWjVUTmtVbE1sTlZlNmI1aDR0L3M2N3BSd3lJRHRyUlliSkNxemZRQU41aTRWeDFSMVpsWjdkNEFaNzN0TE5wWTBtK0c3K2c5ZkkrUnU2WHNWblNJVFkya2JrRWtkbEJ4RnVkTXc9PS0tblFHZWZRNjB3NHBDd21UWlNJckwyZz09--747e7f6917ff48bd689297160500dba2da7e3b1c; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: e06007b4-c4c6-4b37-a199-039e3aedfede
+X-Runtime: 0.193146
+X-Ua-Compatible: chrome=1
+X-Xss-Protection: 1; mode=block
+Content-Length: 95
+Connection: keep-alive
+
+<html><body>You are being <a href="http://moonbay.herokuapp.com/">redirected</a>.</body></html>GET / HTTP/1.1
+Host: moonbay.herokuapp.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+Referer: http://moonbay.herokuapp.com/users/sign_in
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: en-US,en;q=0.8,ja;q=0.6,zh-CN;q=0.4,zh-TW;q=0.2
+Cookie: request_method=POST; remember_user_token=BAhbB1sGaQZJIiIkMmEkMTAkdU5IbmJONEM4UTlBbTV0Y2hEL2tBTwY6BkVU--f4ed03fa889ae69e56f15d204042bcfdd923831e; _moonbay_session=WTlaNGdUaFpEYmdIVU1YMVdBWXBGVkNDcHZpeXRwQkVvNmU5MUQveDN2RmE5M0NYMVVtNVlpMU1acXAwd2RQVmxvSm9rczFWN2Q4OHo2cy8reHQreDcyaXlBSzhubkYyMk8vT2ZuRHJYT1FReTJSeVJjdjZrOVAwZjFWT2dqNEozMjZ5cmhtaitJckxRbnc2YzJlUUFuOVBpcW1iM2UxeGJHRXFvNnZRUHE4T3FpendDWjVUTmtVbE1sTlZlNmI1aDR0L3M2N3BSd3lJRHRyUlliSkNxemZRQU41aTRWeDFSMVpsWjdkNEFaNzN0TE5wWTBtK0c3K2c5ZkkrUnU2WHNWblNJVFkya2JrRWtkbEJ4RnVkTXc9PS0tblFHZWZRNjB3NHBDd21UWlNJckwyZz09--747e7f6917ff48bd689297160500dba2da7e3b1c
+
+HTTP/1.1 200 OK 
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Sun, 20 Apr 2014 14:30:42 GMT
+Etag: "2c59ac6f46dd7999a2af1e654b48a03e"
+Server: WEBrick/1.3.1 (Ruby/1.9.3/2014-02-24)
+Set-Cookie: request_method=GET; path=/
+Set-Cookie: _moonbay_session=S0dKS1hISURQaFE3WWNlZm9aZndiUCszUXFtSFFlRGNIUTJOUVZZYnJheElUenllUDFOQWY0R2E2Tk8vLy9uOUsxMzU2UlBNS1RmMDJ1M1JLcFk2VkI1THBCNCtLQUIxU3V6UlFOLzRvWnRpaWowSENlQlgxQm9GZHZ1d1dKUWRNVHYzSkZVOEtnRmhsS1VkeE9BZDQ2dWRHckZ3cXUxQVlPeEtVWG9BalBKMVBUTlV1emZaTDVNdXJROHZtdEJ3ZndXUDRXQVgvb2dDYWlZYWYwQVRsSXorMFBCV3d5VFZCeTU5LzNKNHdyaDFEV2NRSGZsZUtDQjdYWFQrbDJZT1RxWWg0d0lSUmozY0l5NmxyQ3IrVHZtdzFNbVYzemxiTGs5eTBTS3VZd0c0U0dCLzJXNGJDVWIyREdYM0NZMG5kYlgyQWEvUG1tTENHQ00vNjNaakpRcERMUmZsRmpLcmFWc3NtVUtqTWxMeGRVdUtzZHRhR09TUGFGTkc2RGxZLS1WYUgybXluSzJEdUNPcHVsVEVrV0VnPT0%3D--103e33db5335ee2738f7eca5ac0f08c4d864156b; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 3d84f761-5f96-43f8-ad85-9ce2f267b731
+X-Runtime: 0.109747
+X-Ua-Compatible: chrome=1
+X-Xss-Protection: 1; mode=block
+Content-Length: 31928
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moonbay</title>
+  <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <link data-turbolinks-track="true" href="/assets/application-5e2b8462f86c1c62c9071d82edaf3bb3.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/application-c2ff31ef95787720898e2f0237e62198.js"></script>
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="mUbdkHrhZMzMrIHgZLJ5WwqgvjSh6SzUnOcfycTflzs=" name="csrf-token" />
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" >
+    <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img alt="Moonbay23" src="/assets/moonbay23-3e4dc7a6d469c222770aa0822b4d9f41.png" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/articles">主页</a></li>
+            <li><a href="/">一级难度</a></li>
+            <li><a href="/">二级难度</a></li>
+            <li><a href="/">三级难度</a></li>
+            <li><a href="/">与我们联系</a></li>
+            <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    zhengjiezxxy2010@gmail.com
+                   <b class="caret"></b>
+                 </a>
+                  <ul class="dropdown-menu">
+                    <li> <a href="/">个人档案</a> </li>
+                    <li> <a data-method="delete" href="/users/sign_out" rel="nofollow">注销</a>
+                    </li>
+                  </ul>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+
+<div class="container">
+
+ <p class="notice">登录成功.</p>
+
+  <div class="row">
+    <div >
+  <h4 >月儿弯弯 有你有我</h4>
+  <div class="newButton">
+  <a class="btn btn-primary" href="/articles/new"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.new">New</span></a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion0">
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse3">温情话过年</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse3" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：1
+            </p>
+
+              <p>&nbsp; &nbsp;&nbsp;和很多人一样，我也觉得大家对过年没有太大感觉了；和很多人一样，我也会时常怀念儿时过年的时光。怀念，并不是因为觉得那时过年有很多美好，可能只是一种怀旧的情愫而已。儿时的过年时光对于我来说，并没有太多的快乐，尽管那时年味十足。&nbsp; &nbsp;&nbsp;所谓的年味都体现在过年前一个月就开始的忙忙碌碌中。虽然年龄不大，可我却得和大人一起为过年忙碌着。父亲是一个非常懒惰的人，弟妹都小，作为姐弟四个的老大，繁重的劳动自然而然就落在我和母亲的肩头。过年了要忙年货。&nbsp; &nb</p>
+
+            <a href="/articles/9">......</a>
+            <a class="btn btn-mini" href="/articles/9/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/9" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse24">12星座男女情“色”秘籍！</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse24" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：魔女道士Blog
+            星级：1
+            </p>
+
+              <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　一、热情奔放的红色精神&nbsp;　　代表星座：白羊座&nbsp;　　解　析：与炽烈红色结缘的你自然是热情如火，活力四射。性格直爽，似乎刚强有加而温柔不足。你在恋爱中常担当主动的角色，所以你常有新恋情。对旧情人是一种“挥挥衣袖”的洒脱状，很少眷恋。遇到心仪的对象，往往呈现飞蛾扑火的备战状态，占有欲强烈，并外加自我陶醉的狂乱幻想。不过激情来得快消退得也快，可谓“情来如山倒，情去如抽丝”。&n</p>
+
+            <a href="/articles/32">......</a>
+            <a class="btn btn-mini" href="/articles/32/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/32" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse27">不存在的车站</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse27" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：天涯-纸袋气球
+            星级：3
+            </p>
+
+              <p>在2ch论坛上流传的不存在车站“きさらぎ駅”。　　日本论坛网站2ch上有一则流传数年的都市传说，一名男子在深夜搭乘电车时，无意间搭到一个不存在的车站“きさらぎ駅”(译：如月车站)；起先他还很热切地将在车站的见闻与2ch网友即时分享，没想到最后却搞到自己下落不明…　　这起事件发生于2004年，一名叫莲实的男子在晚间11时搭上一列电车，在经过近20分钟的行驶后，他疑惑地在2ch上留言说，平时这班车只要7、 8分钟就会停站，今天却迟迟未停下来。有网友建议去车长室询问看看，莲实照作后却没有获得车长回应，但在列车通过一条陌生的隧道后，于凌晨12时停在“きさらぎ駅”。　　</p>
+
+            <a href="/articles/35">......</a>
+            <a class="btn btn-mini" href="/articles/35/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/35" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse30">武大最美男神是学霸 青衣扮相迷倒宅男</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse30" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：河北新闻网
+            星级：1
+            </p>
+
+              <p>　 &nbsp;</p>
+
+<p>　着青衣 扮相美 获封&ldquo;武大最美男神&rdquo; &nbsp; 成绩优 热公益 &ldquo;武大男神&rdquo;是学霸</p>
+
+<p>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;</p>
+
+            <a href="/articles/26">......</a>
+            <a class="btn btn-mini" href="/articles/26/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/26" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse33">TimeOut：由演员，导演，影...</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse33" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：金龙哲
+            星级：2
+            </p>
+
+              <p>本文原文来自TimeOut网站。其采访了几十位对中国电影有研究的演员，导演，影评人，电影学家及业内人士，每人选出心目中的10佳中国大陆电影，汇总而成。</p>
+
+<p>原文地址：</p>
+
+<p>http://www.timeoutshanghai.com</p>
+
+            <a href="/articles/37">......</a>
+            <a class="btn btn-mini" href="/articles/37/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/37" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion0" data-toggle="collapse" href="#collapse36">人生只做一件事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse36" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：2
+            </p>
+
+              <p>&nbsp;为什么一生只做一件事，听我慢慢道来！我家门前有两家卖老豆腐的小店。一家叫&ldquo;潘记&rdquo;，另一家叫&ldquo;张记&rdquo;。两家店是同时开张的。刚开始，&ldquo;潘记&rdquo;生意十分兴隆，吃老豆腐的人得排队等候，来得晚就吃不上了。潘记的特点是：豆腐做得很结实，口感好，给的量特别大。相比之下，张记老豆腐就不一样了，首先是豆腐做得软，软得像汤汁，不成形状；其次是给的豆腐少，加的汤多，一碗老豆腐半碗多汤。因此，有一段时间，，张记的门前冷冷清清。有一天早上，因为我起床晚了，只好来到张记的豆腐店。&nbsp;</p>
+
+<p>吃完了一碗老豆腐，老</p>
+
+            <a href="/articles/42">......</a>
+            <a class="btn btn-mini" href="/articles/42/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/42" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse1">让子弹在身体里飞一会儿</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse in" id="collapse1" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：何帆（最高人民法院法官）
+            星级：2
+            </p>
+
+              <p>&nbsp; &nbsp;&nbsp;经典美剧《律师风云》（Boston Legal）第一季第七集出现过一则有趣的案例。被告蒙面抢劫一个便利店，被店主持枪击伤。就医期间，警方找到被告，但是，唯一能够证明被告抢劫的，只有射入他体内的子弹。为求自保，被告拒绝取出子弹。聪明的女律师劳瑞以这么做违反宪法第四修正案“禁止无理搜查”的规定为由，说服法官驳回了警方的申请。&nbsp; &nbsp;&nbsp;当然，因为子弹没及时取出，被告几乎流血身亡，最后还是靠男主人公艾伦•肖介绍，跑到地下诊所做手术才保住了性命。虽然这个故事有不少演绎成分，但绝不是编剧凭空捏造出来的 案例。它的现实素</p>
+
+            <a href="/articles/1">......</a>
+            <a class="btn btn-mini" href="/articles/1/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/1" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse13">德国父母的“成绩单” 让中国家长触动</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse13" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者： 新浪教育
+            星级：1
+            </p>
+
+              <p>&nbsp;　　　德国的孩子每逢月末，都会根据这个月的实际生活情况，对爸爸妈妈的行为进行评分。父母看到这份‘父母成绩单’要签署意见，再由孩子交给老师。　　这是一份怎么样的“父母成绩单”？　　“父母成绩单”上共有10道题，优秀为A+，合格为A，不合格为B。每一项都做出选择后，可以看到父母本月在孩子心中是否合格。　　1.父母彼此间和睦相处，互敬互爱，从不在我面前使用不文明语言或无休止地争吵。　　2.父母能为我创造良好的学习环境，不以电视，电脑或大声说话来影响我的学习。&lt;</p>
+
+            <a href="/articles/20">......</a>
+            <a class="btn btn-mini" href="/articles/20/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/20" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse22">婚恋心理：男人爱议论女人4件事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse22" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者： 39健康网
+            星级：1
+            </p>
+
+              <p>　 &nbsp;核心提示：大家总说女人爱八卦，其实，生活中很多男人比女人还八卦，而他们八卦的话题总是和女人分不开，当几个男人聚在一起八卦的时候，他们会围绕女人的哪些话题开展讨论呢？一起来看：男人爱八卦，最爱讨论女人的哪些事儿？　　女人的脸蛋身材　　男人呆在一起的时候通常都喜欢讨论女人的脸蛋和身材，这是一个不可避免的话题，因为男人都是视觉动物，在他们心目中，第一眼看到的就是女人的脸蛋和身材，而已经成为了他们潜意识里对女人话题的首要。不要看你的男人平时一本正经的，和兄弟们在一起的时候，他可不会那么正人君子。　　女人的性格心地&lt;/</p>
+
+            <a href="/articles/30">......</a>
+            <a class="btn btn-mini" href="/articles/30/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/30" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse31">50个精彩的培训故事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse31" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：靳晓鹏
+            星级：3
+            </p>
+
+              <p>1、一只火鸡和一头牛闲聊，火鸡说：我希望能飞到树顶，可我没有勇气。牛说：为什么不吃一点我的牛粪呢，他们很有营养。火鸡吃了一点牛粪，发现它确实给了它足够的力量飞到第一根树枝，第二天，火鸡又吃了更多的牛粪，飞到第二根树枝，两个星期后，火鸡骄傲的飞到了树顶，但不久，一个农夫看到了它，迅速的把它从树上射了下来。</p>
+
+<p>　　生存之道1：牛屎运让你达到顶峰，但不能让你留在那里。</p>
+
+<p>　　2、乌鸦站在树上，整天无所事事，兔子看见乌鸦，就问：我能像你一样，整天什么事都不用干吗？乌鸦说：当然，有什么不可以呢？于是，兔子在树下的空地上开始休息，忽然，一只狐狸出现了，它跳起来抓</p>
+
+            <a href="/articles/39">......</a>
+            <a class="btn btn-mini" href="/articles/39/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/39" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse34">励志故事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse34" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：2
+            </p>
+
+              <p>0 相信自己是一只雄鹰</p>
+
+<p>一个人在高山之巅的鹰巢里，抓到了一只幼鹰，他把幼鹰带回家，养在鸡笼里。这只幼鹰和鸡一起啄食、嬉闹和休息。它以为自己是一只鸡。这只鹰渐渐长大，羽翼丰满了，主人想把它训练成猎鹰，可是由于终日和鸡混在一起，它已经变得和鸡完全一样，根本没有飞的愿望了。主人试了各种办法，都毫无效果，最后把它带到山顶上，一把将它扔了出去。这只鹰像块石头似的，直掉下去，慌乱之中它拼命地扑打翅膀，就这样，它终于飞了起来！
+<br />温馨提示：磨练召唤成功的力量。</p>
+
+<p>1 为生命画一片树叶只要心存相信，总有奇迹发生，希望虽然渺茫，但它永存人世。
+</p>
+
+            <a href="/articles/40">......</a>
+            <a class="btn btn-mini" href="/articles/40/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/40" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion1" data-toggle="collapse" href="#collapse37">人生只做一件事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse37" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：2
+            </p>
+
+              <p>&nbsp;为什么一生只做一件事，听我慢慢道来！我家门前有两家卖老豆腐的小店。一家叫&ldquo;潘记&rdquo;，另一家叫&ldquo;张记&rdquo;。两家店是同时开张的。刚开始，&ldquo;潘记&rdquo;生意十分兴隆，吃老豆腐的人得排队等候，来得晚就吃不上了。潘记的特点是：豆腐做得很结实，口感好，给的量特别大。相比之下，张记老豆腐就不一样了，首先是豆腐做得软，软得像汤汁，不成形状；其次是给的豆腐少，加的汤多，一碗老豆腐半碗多汤。因此，有一段时间，，张记的门前冷冷清清。有一天早上，因为我起床晚了，只好来到张记的豆腐店。&nbsp;</p>
+
+<p>吃完了一碗老豆腐，老</p>
+
+            <a href="/articles/43">......</a>
+            <a class="btn btn-mini" href="/articles/43/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/43" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <!-- use accordion for index page -->
+    <div class="panel-group" id="accordion2">
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion2" data-toggle="collapse" href="#collapse8">上海剩女嫁美国成“封建妇女”</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse8" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：华尔街日报
+            星级：1
+            </p>
+
+              <p>&nbsp; &nbsp; 自从嫁到美国，我就和一些美国中产阶级家庭妇女一样，不再工作。几十年的社会主义教育白费了，我成了一个“封建妇女”，把照顾好家庭，教育好子女当作自己的全职工作。曾经有人问：“你觉得美国的生活和上海有什么不同？”我回答：“就像解放前百乐门的舞女碰上49年──灯红酒绿的大门永远关上了。”　　在上海土生土长，大学毕业进入500强公司做事，从底层做到管理层，见不完的客户，开不完的会，吃不完的饭局。尤其饭局之多，好像本身就是一种生活状态。下班后同事聚餐，见客户商务宴请，朋友聚会酒吧小酌，就算唱卡拉OK，不唱的也是在吃。公司年庆能吃出土豪嫁女的宏大场面，上千人</p>
+
+            <a href="/articles/15">......</a>
+            <a class="btn btn-mini" href="/articles/15/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/15" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion2" data-toggle="collapse" href="#collapse11">盘点美国最出人意料的16种高薪职业</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse11" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：1
+            </p>
+
+              <p>&nbsp;中国人常说，职业不分高低贵贱，都是为人民服务。但如果职业要是为人民币服务，对职业的理解会有不同的感觉。华人在美国很重视教育，而且对律师、医生、工程师等职业格外青睐，说到底就是这些职业的收入高。美国劳工部统计局每年都会搜集各类职业收入的数据，除了人们常见的高薪职业外，也有一些平时看起来不起眼的职业年薪可以达到10万美元以上。下面是美国最出人意料的16种高薪职业，看看这些职业都是干什么的。&nbsp;1、舞台表演化妆师。化妆师的工作就是为表演者化妆，以反映他们所饰角色的年龄、设定与状态，在明星盛行的时代，化妆师是幕后英雄，他们的收入与哪些腕相比自然是差了</p>
+
+            <a href="/articles/18">......</a>
+            <a class="btn btn-mini" href="/articles/18/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/18" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion2" data-toggle="collapse" href="#collapse20">孝女带盲母上大学：等有钱了要给妈...</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse20" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者： 重庆晨报 
+            星级：2
+            </p>
+
+              <p>&nbsp; &nbsp;&nbsp;昨天中午，重庆传媒职业学院，12点的下课铃一响，大一学生唐洪第一个疾步走出教室，穿过校园，直奔学校山坡上的家。　　唐洪不想让妈妈等太久，她知道，妈妈早已准备好了中午要吃的菜，“中午吃莴笋，妈妈洗好切好，我回去炒。”唐洪说，更多的时候，她回去就可以吃饭，“大都是妈妈照顾我，妈妈最能干了……”　　唐洪口中引以为豪的母亲叫曹玉香，今年57岁，双目失明。　　去年，唐洪考上铜梁县重庆传媒职业学院，她决定带上妈妈离开老家，一起念大学。　　矛盾　　爸爸不同意女儿读书，但妈妈却</p>
+
+            <a href="/articles/28">......</a>
+            <a class="btn btn-mini" href="/articles/28/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/28" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion2" data-toggle="collapse" href="#collapse32">母爱不分种族，也没有高低贵贱</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse32" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：2
+            </p>
+
+              <p>&nbsp; &nbsp;&nbsp;据英国《每日邮报》报道，在博茨瓦纳的卡萨内自然保护区内，摄影师尼尔&middot;库珀拍摄到了触目惊心的一幕。一只小河马不幸死去，悲痛欲绝的河马妈妈哀嚎示伤，不许其他河马靠近。摄影师将这一幕描述为&ldquo;叫人心碎不忍直视&rdquo;的场景。</p>
+
+<p>&nbsp; &nbsp;&nbsp;这是一个令人心痛的时刻，河马妈妈一动不动地守在河马宝宝身边。悲伤、哀恸化为哀嚎，随即转为暴怒。为了保护宝宝的尸体，河马妈妈面目狰狞，口露獠牙，口水四溢以震慑试图靠近的入侵者。</p>
+
+<p>&nbsp; &nbsp;&nbsp;河马在非洲被</p>
+
+            <a href="/articles/12">......</a>
+            <a class="btn btn-mini" href="/articles/12/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/12" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+              <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="accordion-panel-title">
+            <a data-parent="#accordion2" data-toggle="collapse" href="#collapse35">励志故事</a>
+          </h4>
+        </div>
+        <div class="panel-collapse collapse" id="collapse35" />
+          <div class="accordion-panel-body">
+            <p display="inline">
+            作者：佚名
+            星级：2
+            </p>
+
+              <p>0 相信自己是一只雄鹰</p>
+
+<p>一个人在高山之巅的鹰巢里，抓到了一只幼鹰，他把幼鹰带回家，养在鸡笼里。这只幼鹰和鸡一起啄食、嬉闹和休息。它以为自己是一只鸡。这只鹰渐渐长大，羽翼丰满了，主人想把它训练成猎鹰，可是由于终日和鸡混在一起，它已经变得和鸡完全一样，根本没有飞的愿望了。主人试了各种办法，都毫无效果，最后把它带到山顶上，一把将它扔了出去。这只鹰像块石头似的，直掉下去，慌乱之中它拼命地扑打翅膀，就这样，它终于飞了起来！
+<br />温馨提示：磨练召唤成功的力量。</p>
+
+<p>1 为生命画一片树叶只要心存相信，总有奇迹发生，希望虽然渺茫，但它永存人世。
+</p>
+
+            <a href="/articles/41">......</a>
+            <a class="btn btn-mini" href="/articles/41/edit"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.edit">Edit</span></a>
+
+            <a class="btn btn-mini btn-danger" data-confirm="Are you sure?" data-method="delete" href="/articles/41" rel="nofollow"><span class="translation_missing" title="translation missing: zh-CN.helpers.links.destroy">Destroy</span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>  
+
+<ul class="pager">
+<li><a href="#">Previous</a></li>
+<li><a href="#">Next</a></li>
+</ul>
+
+
+</div>
+
+</body>
+</html>
