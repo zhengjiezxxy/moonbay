@@ -1,10 +1,4 @@
 RailsAdmin.config do |config|
-config.navigation_static_links = {
-    'Google' => 'http://www.google.com'
-}
-config.model 'Article' do
-  navigation_label 'League related'
-  end
   ### Popular gems integration
 
   ## == Devise ==
@@ -42,9 +36,6 @@ config.model 'Article' do
     include_all_fields
     edit do
       # For RailsAdmin >= 0.5.0
-      field :title do
-        partial :my_form
-      end
       field :body, :ck_editor
       # For RailsAdmin < 0.5.0
       # field :description do
